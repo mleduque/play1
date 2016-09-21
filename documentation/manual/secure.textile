@@ -28,7 +28,7 @@ h2. <a name="controller">Protecting a controller</a>
 
 To protect a controller you just have to annotate it using <code>@With</code>. For example:
 
-bc. @With(Secure.class)
+bc.. @With(Secure.class)
 public class Application extends Controller {
     
     public static void index() {
@@ -36,7 +36,7 @@ public class Application extends Controller {
     }
 }
 
-This controller will be automatically protected with the default authentication page.
+p. This controller will be automatically protected with the default authentication page.
 
 h2. <a name="custom">Customizing the authentication mechanism</a>
 
